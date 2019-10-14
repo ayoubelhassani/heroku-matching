@@ -78,6 +78,5 @@ def notfound():
 def notfound():
     return {"500":"No route specified !"}
 
-
 if __name__ == '__main__':
-     app.run(port='5002')
+     app.run()
